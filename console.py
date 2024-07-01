@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Documentation for the console module in alx school is comming soon.
+"""
 import cmd
 from models.base_model import BaseModel
 from models.user import User
