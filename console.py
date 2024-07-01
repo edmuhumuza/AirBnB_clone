@@ -95,7 +95,7 @@ class HBNBCommand(cmd.Cmd):
     def do_show(self, arg):
         args = arg.split()
         if not args:
-            print('** class name is missing **')
+            print('** class name missing **')
             return
         if args[0] and args[0] not in ['BaseModel', 'User' , 'Place', 'State', 'City', 'Amenity', 'Review']:
             print('** class doesn\'t exist **')
@@ -170,7 +170,7 @@ class HBNBCommand(cmd.Cmd):
     def do_destroy(self, arg):
         args = arg.split()
         if not args:
-            print('** class name is missing **')
+            print('** class name missing **')
             return
         if args[0] not in ['BaseModel', 'User', 'Place', 'State', 'City', 'Amenity', 'Review']:
             print('** class doesn\'t exist **')
